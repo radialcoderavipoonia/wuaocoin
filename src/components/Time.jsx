@@ -1,16 +1,20 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
+import React from "react";
+import { Container } from "react-bootstrap";
 
 const Time = () => {
   return (
-      <>
-          <section className='bg_img'>
-              <Container>
-                  <H1></H1>
-              </Container>
-          </section>
-      </>
-  )
-}
+    <>
+      <section className="bg_img">
+        <Container>
+          <div className="d-flex justify-content-center">
+            <h1 className="text-center">
+              Public Sale 5% in ERC20 & BEP20, 100% for the Community
+            </h1>
+          </div>
+        </Container>
+      </section>
+    </>
+  );
+};
 
-export default Time
+export default Time;
