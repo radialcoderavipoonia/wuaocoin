@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap%22");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap%22%22");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap%22%22");
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none !important;
-  text-decoration: none !important;
-  box-sizing: border-box !important;
+*{
+margin: 0;
+padding: 0;
+list-style: none !important;
+text-decoration: none !important;
+box-sizing: border-box !important;
 }
 
-/* font family  */
+ /* font family   */
 .ff_montserrat {
   font-family: "Montserrat";
 }
@@ -32,7 +32,7 @@
   --color-black: #000000;
 }
 
-/* font size  */
+/* / font size  / */
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
@@ -58,7 +58,7 @@
   font-size: var(--fs-4xl);
 }
 
-/* colors  */
+/* / colors  */ */
 .color_white {
   color: var(--color-white);
 }
