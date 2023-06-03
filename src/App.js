@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Nav from "../src/components/Nav.jsx"
-import Hero from "../src/components/Hero.jsx"
-
+import Nav from "../src/components/Nav.jsx";
+import Hero from "../src/components/Hero.jsx";
+import React, { Component } from "react";
 function App() {
   return (
     <>
