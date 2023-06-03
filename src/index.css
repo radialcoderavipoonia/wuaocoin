@@ -1,1 +1,41 @@
+/* background images  */
+.header_bg {
+  background-image: url("../src/assets/images/png/header_bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page_logo_bg {
+  background-image: url("../src/assets/images/png/page_logo_bg.png");
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
+/* padding  */
+.pt_40 {
+  padding-top: 40px;
+}
+.pl_31 {
+  padding-left: 31px;
+}
+.pt_32 {
+  padding-top: 32px;
+}
+/* margin  */
+.mt_32 {
+  margin-top: 32px;
+}
+
+/* border  */
+.border_white {
+  border: 1px solid white;
+}
+/* border radius  */
+.br_165 {
+  border-radius: 165px;
+}

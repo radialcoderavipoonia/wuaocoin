@@ -9,7 +9,7 @@ text-decoration: none !important;
 box-sizing: border-box !important;
 }
 
-/* font family  /
+/* /* font family  / */
 .ff_montserrat {
   font-family: "Montserrat";
 }
@@ -26,13 +26,13 @@ box-sizing: border-box !important;
   --fs-2xl: 30px;
   --fs-3xl: 50px;
   --fs-4xl: 65px;
-  --color-white: #ffffff;
-  --bg-white: #ffffff;
-  --color-darkblack: #32352c;
+  --color-white: #FFFFFF;
+  --bg-white: #FFFFFF;
+  --color-darkblack: #32352C;
   --color-black: #000000;
 }
 
-/ font size  /
+/* / font size  / */
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
@@ -58,7 +58,7 @@ box-sizing: border-box !important;
   font-size: var(--fs-4xl);
 }
 
-/ colors  */
+/* / colors  */ */
 .color_white {
   color: var(--color-white);
 }

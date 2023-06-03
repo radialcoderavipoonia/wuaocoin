@@ -4,7 +4,7 @@ import "./root.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from "../src/components/Nav.jsx";
 import Hero from "../src/components/Hero.jsx";
-import React, { Component } from "react";
+import React, { component } from "react";
 function App() {
   return (
     <>
