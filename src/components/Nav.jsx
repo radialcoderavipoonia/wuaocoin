@@ -12,7 +12,7 @@ export const Nav = () => {
     <>
       <section>
         {/* hero section starts  */}
-        <header className="header_bg position-relative">
+        <header className=" position-relative">
           {/* nar bar starts  */}
           <nav className="d-flex justify-content-between align-items-center container w-100">
             <div className="py-4 position-relative z-3">
@@ -83,7 +83,7 @@ export const Nav = () => {
             />
           </div>
           {/* nav bar ends */}
-          <div className="container">
+          {/* <div className="container">
             <div className="py-5">
               <div className="py-5">
                 <div className="py-5">
@@ -106,7 +106,7 @@ export const Nav = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </header>
         {/* hero section ends   */}
       </section>
