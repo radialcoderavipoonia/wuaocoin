@@ -1,15 +1,20 @@
+// import logo from "./logo.svg";
 import "./App.css";
-import Nav from "../src/components/Nav.jsx";
+import "./root.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "../src/Middle.css";
-import "../src/middle.css";
-import Benifit from "./components/Benifit";
+import "./middle.css";
+import Nav from "../src/components/Nav.jsx";
+import Hero from "../src/components/Hero.jsx";
+// import React, { Component } from "react";
 import Whitepaper from "./components/Whitepaper";
-
+import Roadmap from "./components/Roadmap";
 function App() {
   return (
     <>
+      <Nav />
+      <Hero />
       <Whitepaper />
+      <Roadmap />
     </>
   );
 }
