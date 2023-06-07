@@ -6,14 +6,19 @@ import Nav from "../src/components/Nav.jsx";
 import Hero from "../src/components/Hero.jsx";
 import React, { component } from "react";
 import Header from "./components/Header";
+import Projects from "./components/Projects.jsx";
+
 function App() {
   return (
     <>
-      <div className="vh-100 header_bg overflow -hidden">
-        <Nav />
-        <Hero />
+      <div className="">
+        <div className="vh_100_1440 header_bg  ">
+          <Nav />
+          <Hero />
+        </div>
+        <Header />
+        <Projects />
       </div>
-      <Header />
     </>
   );
 }

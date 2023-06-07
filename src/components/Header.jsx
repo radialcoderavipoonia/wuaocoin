@@ -1,30 +1,27 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import header_img2 from "../assets/images/png/header_img2.png";
-import header_img3 from "../assets/images/png/header_img3.png";
-import hero_layer from "../assets/images/png/hero_layer.png";
-
+import grouporangebg from "../assets/images/png/group_header.png";
+import headerbg from "../assets/images/png/hero_bg.png";
+import centerdownarrow from "../assets/images/png/center_down_arrow_header.png";
+import downarrow from "../assets/images/png/down_arrow_header.png"
 const Header = () => {
   return (
-    <div>
-      <section className="position-relative d-xl-block d-none overf low-hidden">
-        <img
-          src={hero_layer}
-          alt="hero_layer"
-          className="position-absolute top-0 w-100 minus_margin"
-        />
-        <Row>
-          <Col lg={6}>
-            <img src={header_img2} alt="header_img2" className=" w-100" />
-          </Col>
-          <Col lg={6} className="pe-0">
-            <div className=" hero_layer2 position-absolute end-0 z-0">
-              <img src={header_img3} alt="header_img2" className=" w-100 z-0" />
-            </div>
-          </Col>
-        </Row>
-      </section>
-    </div>
+    <>
+      <div className="d_none_xl h_500 h_350_1600 position-relative">
+        <div className="position-relative top_-5 d_none_xl">
+          <img src={headerbg} alt="header bg" className="w_100" />
+        </div>
+        <div className="position-relative top_-450 d_none_xl">
+          <img src={grouporangebg} alt="group orange bg" className="w_100" />
+        </div>
+        <div className="position-absolute top_40 left_40 d_none_xl">
+          <img src={centerdownarrow} alt="center down arrow header section" />
+        </div>
+        <div className="position-absolute top_60 right_10 d_none_xl">
+          <img src={downarrow} alt="down arrow header section" />
+        </div>
+      </div>
+    </>
   );
 };
 
