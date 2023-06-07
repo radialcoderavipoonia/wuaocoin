@@ -7,7 +7,7 @@ import Roadmap_arrow from "../Images/Png/roadmape_arrow.png";
 const Roadmap = () => {
   return (
     <>
-      <section className="roadmape_s py-4 position-relative mw_1440">
+      <section className="roadmape_s py-4 position-relative ">
         <div className="py-lg-5  container-fluid px-sm-4">
           <h2 className="ff_montserrat fs_3xl ">RoadMap</h2>
           <p className="main_para mx-auto ff_montserrat pt_18 pb-3">

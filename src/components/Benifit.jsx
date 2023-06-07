@@ -4,38 +4,41 @@ import { Row } from "react-bootstrap";
 import benifit_img1 from "../Images/Png/benifit_img1.png";
 import benifit_img2 from "../Images/Png/benifit_img2.png";
 import benifit_img3 from "../Images/Png/benifit_img3.png";
+import benifit_arrow from "../Images/Png/benifit_arrow.png"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Benifit = () => {
   return (
     <>
-      <section>
-        <Container>
-          <Row className=" align-items-baseline">
-            <div className="col-4">
-              <div className="benifit_box ">
-                <div>
-                  <img className="benifit_img1 " src={benifit_img1} alt="benifit_img1" />
+      <section className='py-5'>
+        <Container className="py-lg-5 position-relative">
+          <Row className=" align-items-baseline justify-content-center">
+            <div className="col-xl-4 col-md-6 pt-3 ">
+              <div className="benifit_box d-flex flex-column align-items-center ">
+                <div className="py-4">
+                  <img className="benifit_img1" src={benifit_img1} alt="benifit_img1" />
                 </div>
-                <p>Services, Products and Community All in one place!</p>
+                <p className="pt-23 mt-1 ff_montserrat mw_317">Services, Products and Community All in one place!</p>
               </div>
             </div>
-            <div className="col-4">
-              <div className="benifit_box">
-                <div className="ps-5" >
+            <div className="col-xl-4 col-md-6 mt-5 mt-lg-0">
+              <div className="benifit_box d-flex flex-column align-items-center">
+                <div className="px-3" >
                   <img className="benifit_img2"  src={benifit_img2} alt="benifit_img1" />
                 </div>
-                <p>Services, Products and Community All in one place!</p>
+                <p className="pt-23 ff_montserrat mw_272">Selling in crypto will no longer be complicated, it will be safe and reliable.</p>
               </div>
             </div>
-            <div className="col-4">
-              <div className="benifit_box">
-                <div>
+            <div className="col-xl-4 col-md-6 mt-5 mt-lg-0">
+              <div className="benifit_box d-flex flex-column align-items-center">
+                <div className="px-3">
                   <img className="benifit_img3" src={benifit_img3} alt="benifit_img1" />
                 </div>
-                <p>Services, Products and Community All in one place!</p>
+                <p className="pt-23 ff_montserrat mw_288">Buying and getting a real discount is possible? Join and check it out.</p>
               </div>
             </div>
           </Row>
+          <img src={benifit_arrow} alt="arrow" className="position-absolute benifit_arrow d-none d-lg-block" />
         </Container>
       </section>
     </>
