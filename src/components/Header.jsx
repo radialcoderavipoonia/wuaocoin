@@ -11,7 +11,7 @@ const Header = () => {
         <div className="position-relative top_-5 d_none_xl">
           <img src={headerbg} alt="header bg" className="w_100" />
         </div>
-        <div className="position-relative Z_-1 top_-450 d_none_xl">
+        <div className="position-relative top_-450 d_none_xl">
           <img src={grouporangebg} alt="group orange bg" className="w_100" />
         </div>
         <div className="position-absolute top_40 left_40 d_none_xl">
