@@ -51,7 +51,7 @@ export const Projects = () => {
               </Col>
             </Row>
           </div>
-          <div className="position-absolute right_0 top_-100 d_none_xl ">
+          <div className="position-absolute right_0 top_-100 d_none_xl">
             <img
               src={rightshadowproject}
               alt="right shadow our projects section"
