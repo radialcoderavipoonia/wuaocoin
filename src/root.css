@@ -9,9 +9,13 @@
   box-sizing: border-box !important;
 }
 
+<<<<<<< HEAD
 /* /* font family  / */
+=======
+ /* font family   */
+>>>>>>> 5dac6e0222bcfb287f5bb4f86d4cdd640b36023a
 .ff_montserrat {
-  font-family: "Montserrat";
+  font-family: "Montserrat" !important;
 }
 .ff_inter {
   font-size: "inter";
@@ -58,7 +62,11 @@
   font-size: var(--fs-4xl);
 }
 
+<<<<<<< HEAD
 /* / colors  */
+=======
+/* / colors  */ */
+>>>>>>> 5dac6e0222bcfb287f5bb4f86d4cdd640b36023a
 .color_white {
   color: var(--color-white);
 }
@@ -71,6 +79,7 @@
 .color_black {
   color: var(--color-black);
 }
+<<<<<<< HEAD
 /* gradient  */
 
 /* font weight  */
@@ -138,3 +147,6 @@
   --fs-4xl: 40px;
   }
 }
+=======
+
+>>>>>>> 5dac6e0222bcfb287f5bb4f86d4cdd640b36023a
