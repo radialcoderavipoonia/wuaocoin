@@ -262,6 +262,7 @@ footer ul li a::before {
   background-color: #ffa53b;
   height: 1px;
   width: 0%;
+   transition: 300ms ease-in;
 }
 footer ul li:hover a::before {
   content: "";
@@ -270,7 +271,7 @@ footer ul li:hover a::before {
   background-color: #ffa53b;
   height: 2px;
   width: 100%;
-  transition: 300ms ease-in-out;
+ 
 }
 
 .curser-pointer {
