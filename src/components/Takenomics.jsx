@@ -1,0 +1,108 @@
+import React from "react";
+import a from "../Images/Png/A.png";
+import b from "../Images/Png/team-vector.png";
+import c from "../Images/Png/c.png";
+import d from "../Images/Png/d.png";
+import bcircle from "../Images/Png/bcircle.png";
+import shadow from "../Images/Png/shadow.png";
+import shadow2 from "../Images/Png/shadow-2.png";
+import b10 from "../Images/Png/b-10.png";
+import c_circle from "../Images/Png/c5.png";
+import d_circle from "../Images/Png/d5.png";
+import vec from "../Images/Png/takenommics-vec.png";
+import vec2 from "../Images/Png/takenomics-vec2.png";
+import takearrow from "../Images/Png/take-arrow.png";
+import pink from "../Images/Png/pink.png";
+import yellow from "../Images/Png/yellow.png";
+import green from "../Images/Png/green.png";
+import blue from "../Images/Png/blue.png";
+const Takenomics = () => {
+  return (
+    <>
+      <section className="py-5 vh_sm-50">
+        <div className="container">
+          {/* <div className="vec w-100">
+          <img  src={vec} alt="vec" />
+        </div>
+        <div className="takearrow w-100">
+          <img  src={takearrow} alt="takearrow" />
+        </div> */}
+          <h2 className="py-5 ff_montserrat fs_3xl color_grey fw-bold text-center mb-0">
+            Tokenomics
+          </h2>
+          <div className="d-flex flex-column align-items-center  position-relative py-5 translate_md">
+            <div className="bcircle b-shadow ">
+              <img className="w-100 b-shadow" src={bcircle} alt="bcircle" />
+              <div className="pink">
+                <img src={pink} alt="pink" />
+              </div>
+              <div className="p10">
+                <p className="ff_montserrat fw-bold fs_27px color_grey2 text-center mb-0">
+                  10%
+                </p>
+              </div>
+              <div className="b">
+                <img src={b} alt="b" />
+              </div>
+              <div className="a a-shadow">
+                <div className="yellow ">
+                  <img src={yellow} alt="yellow" />
+                </div>
+                <img className="w100-lg " src={a} alt="a" />
+                <div className="p90">
+                  <p className="ff_montserrat fw-bold fs_32 mb-0 color_grey2">
+                    90%
+                  </p>
+                </div>
+                <div className="team ff_montserrat fw-bold fs_lg d-none-lg">
+                  Team
+                </div>
+                <div className="bhc ff_montserrat fw-bold fs_lg d-none-lg">
+                  Buyers/holders/ community
+                </div>
+              </div>
+              <div className="c-circle c-shadow">
+                <div className="green">
+                  <img src={green} alt="green" />
+                </div>
+                <img className="c-shadow" src={c_circle} alt="c" />
+                <div className="c">
+                  <img src={c} alt="c" />
+                </div>
+                <div className="p5">
+                  <p className="ff_montserrat fw-bold fs_27px color_grey2 text-center mb-0">
+                    5%
+                  </p>
+                </div>
+                <div className="sif ff_montserrat fw-bold fs_lg d-none-lg">
+                  Subdivided into 5% Founders
+                </div>
+              </div>
+              <div className="d-circle w100-lg  ">
+                <div className="blue">
+                  <img src={blue} alt="blue" />
+                </div>
+                <img className="w100_lg d-shadow" src={d_circle} alt="d" />
+                <div className="d">
+                  <img src={d} alt="d" />
+                </div>
+                <div className="p-5">
+                  <p className="ff_montserrat fw-bold fs_27px color_grey2 text-center mb-0">
+                    5%
+                  </p>
+                </div>
+                <div className="workers ff_montserrat fw-bold fs_lg d-none-lg">
+                  Workers
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="vec-2">
+          <img src={vec2} alt="vec" />
+        </div> */}
+        </div>
+      </section>
+    </>
+  );
+};
+export default Takenomics;

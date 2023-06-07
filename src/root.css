@@ -11,7 +11,7 @@ box-sizing: border-box !important;
 
  /* font family   */
 .ff_montserrat {
-  font-family: "Montserrat";
+  font-family: "Montserrat" !important;
 }
 .ff_inter {
   font-size: "inter";
