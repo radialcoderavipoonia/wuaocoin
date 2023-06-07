@@ -1,10 +1,10 @@
 import React from "react";
 import unicef from "../Images/Png/unicef.png";
-
+import unicefbg from "../Images/Png/unicef-bg.png";
 const Partnership = () => {
   return (
     <>
-      <section className="whitepaper_bg py-60">
+      <section className="unicef-bg py-60">
         <div className="container">
           <h2 className="ff_montserrat fs_3xl color-light text-center mb-0">
             Partnership

@@ -1,11 +1,12 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Form } from "react-bootstrap";
 import td from "../Images/Png/timedots.png";
+import timebg from "../Images/Png/background.png"
 const Time = () => {
   return (
     <>
-      <section className="whitepaper_bg py-5">
-        <Container>
+      <section className="time-bg py-5">
+        <Container className="py-60">
           <div className="d-flex justify-content-center">
             <h1 className="text-center ff_montserrat color-light fs_2xl mw-609 fw-bold lh-52 mb-0">
               Public Sale 5% in ERC20 & BEP20, 100% for the Community

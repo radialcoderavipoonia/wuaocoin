@@ -19,18 +19,19 @@ import blue from "../Images/Png/blue.png";
 const Takenomics = () => {
   return (
     <>
-      <section className="py-5 vh_sm-50">
-        <div className="container">
-          {/* <div className="vec w-100">
+      <section className="py-5 position-relative ">
+        <div className="vec d-none-lg">
           <img  src={vec} alt="vec" />
         </div>
-        <div className="takearrow w-100">
-          <img  src={takearrow} alt="takearrow" />
-        </div> */}
-          <h2 className="py-5 ff_montserrat fs_3xl color_grey fw-bold text-center mb-0">
+       
+        <div className="takearrow d-none-lg">
+          <img src={takearrow} alt="takearrow" />
+        </div>
+        <div className="container ">
+          <h2 className="py-md-5 ff_montserrat fs_3xl color_grey fw-bold text-center mb-0">
             Tokenomics
           </h2>
-          <div className="d-flex flex-column align-items-center  position-relative py-5 translate_md">
+          <div className="d-flex flex-column align-items-center  position-relative py-5 translate_md vh_sm-50">
             <div className="bcircle b-shadow ">
               <img className="w-100 b-shadow" src={bcircle} alt="bcircle" />
               <div className="pink">
@@ -44,7 +45,7 @@ const Takenomics = () => {
               <div className="b">
                 <img src={b} alt="b" />
               </div>
-              <div className="a a-shadow">
+              <div className="a a-shadow circle-animation">
                 <div className="yellow ">
                   <img src={yellow} alt="yellow" />
                 </div>
@@ -97,9 +98,51 @@ const Takenomics = () => {
               </div>
             </div>
           </div>
-          {/* <div className="vec-2">
+          <div className="d-flex flex-column d-lg-none">
+            <div className="d-flex align-items-center">
+              <div className="p-2">
+                <span className="pink-box d-flex"></span>
+              </div>
+              <div className="px-3">
+                <p className="ff_montserrat fw-bold color_pink fs_md mb-0">
+                  Team
+                </p>
+              </div>
+            </div>
+            <div className="d-flex align-items-center">
+              <div className="p-2">
+                <span className="orange-box d-flex"></span>
+              </div>
+              <div className="px-3">
+                <p className="ff_montserrat fw-bold color_pink fs_md mb-0">
+                  Buyers/holders/ community
+                </p>
+              </div>
+            </div>
+            <div className="d-flex align-items-center">
+              <div className="p-2">
+                <span className="green-box d-flex"></span>
+              </div>
+              <div className="px-3">
+                <p className="ff_montserrat fw-bold color_pink fs_md mb-0">
+                  Subdivided into 5% Founders
+                </p>
+              </div>
+            </div>
+            <div className="d-flex align-items-center">
+              <div className="p-2">
+                <span className="blue-box d-flex"></span>
+              </div>
+              <div className="px-3">
+                <p className="ff_montserrat fw-bold color_pink fs_md mb-0">
+                  Workers
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="vec-2 d-none-lg">
           <img src={vec2} alt="vec" />
-        </div> */}
         </div>
       </section>
     </>

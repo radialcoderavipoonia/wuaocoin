@@ -7,19 +7,15 @@ import Hero from "../src/components/Hero.jsx";
 import React, { Component } from "react";
 import Time from "./components/Time";
 import Partnership from "./components/Partnership";
-import Footer from "./components/Footer";
 import Takenomics from "./components/Takenomics";
-import Dup from "./components/Dup";
+import Footer from "./components/Footer"
 function App() {
   return (
     <>
-       <Nav />
-      <Hero /> 
-       <Time /> 
+      <Time />
       <Takenomics />
       <Partnership />
       <Footer />
-       <Dup />
     </>
   );
 }
