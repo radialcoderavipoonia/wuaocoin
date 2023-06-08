@@ -1,4 +1,13 @@
-/* benifit section */
+/*================================ benifit section===================================*/
+.benifit_heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--fs-3xl);
+  line-height: 61px;
+  text-align: center;
+  color: var(--color-black);
+}
 .benifit_box p {
   font-style: normal;
   font-weight: 400;
@@ -32,7 +41,9 @@
     border-radius: 50% 50% 59% 41% / 39% 60% 40% 61%;
   }
 }
-.pt-23{padding-top: 23px;}
+.pt-23 {
+  padding-top: 23px;
+}
 .mw_317 {
   max-width: 317px;
 }
@@ -42,8 +53,11 @@
 .mw_288 {
   max-width: 288px;
 }
-.benifit_arrow{bottom: 1%;
-left: -4%;}
+.benifit_arrow {
+  bottom: 1%;
+  left: -4%;
+}
+/*====================================benifit section end========================================*/
 
 /* whitepaper section  */
 .whitepaper_bg {
@@ -58,7 +72,7 @@ left: -4%;}
   padding-top: 12px;
 }
 .whitepaper_btn {
-  background-color: white;
+  background-color:var(--bg-white);
   padding: 13px 21px;
   border-radius: 40px;
   display: inline-block;
@@ -89,7 +103,7 @@ left: -4%;}
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: var(--fs-sm);
   line-height: 20px;
   text-align: center;
   background: linear-gradient(
@@ -104,7 +118,7 @@ left: -4%;}
   transition: all 300ms linear;
 }
 .whitepaper_btn:hover span {
-  background: white;
+  background: var(--bg-white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -128,12 +142,13 @@ left: -4%;}
     transform: translatey(-10%) scale(1.1);
   }
 }
+/*=========================================== whitepaper end ===============================*/
 
-/* whitepaper end */
-/* roadmape section */
+/*=========================================== roadmape section ============================== */
 .roadmape_s h2 {
   font-family: "Montserrat";
   font-style: normal;
+  font-size: var(--fs-3xl);
   font-weight: 700;
   line-height: 61px;
   margin-bottom: 0;
@@ -237,14 +252,12 @@ left: -4%;}
   box-shadow: 0 15px 30px rgba(228, 70, 186, 0.468),
     0 6px 10px rgba(230, 56, 186, 0.432);
 }
-
 .roadmap_sideimg {
   position: absolute !important;
   left: 0;
   top: 0;
   z-index: -1;
 }
-
 .roadmap_arrowimg {
   position: absolute;
   top: 10%;
@@ -293,7 +306,7 @@ left: -4%;}
     transform: translate(20px, -30px);
   }
 }
-
+/*============================================= media screen 576 ================================*/
 @media (min-width: 576px) {
   .whitepaper_img2 {
     animation: translatey 3s linear infinite;
@@ -316,7 +329,7 @@ left: -4%;}
       transform: translatey(-10px);
     }
   }
-
+  
   @keyframes translatey {
     0% {
       transform: translatey(0px);
@@ -335,3 +348,4 @@ left: -4%;}
     }
   }
 }
+/*========================================== media screen 576 end ==============================*/
