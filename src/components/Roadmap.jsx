@@ -15,7 +15,7 @@ const Roadmap = () => {
             gradually, presenting the plans to the public is our way of doing
             things.
           </p>
-          <div className="d-flex justify-content-center pt-lg-5">
+          <div className="d-flex justify-content-center py-lg-5 py-3">
             <img
               className="mw_592 w-100 roadmape_img"
               src={Roadmapimg}
