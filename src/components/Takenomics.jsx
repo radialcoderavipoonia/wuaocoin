@@ -124,7 +124,7 @@ const Takenomics = () => {
                 <span className="green-box d-flex"></span>
               </div>
               <div className="px-3">
-                <p className="ff_montserrat fw-bold color_grey fs_md mb-0">
+                <p className="ff_montserrat fw-bold ws-nowrap color_grey fs_md mb-0">
                   Subdivided into 5% Founders
                 </p>
               </div>
