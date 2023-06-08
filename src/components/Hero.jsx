@@ -65,7 +65,6 @@ export const Hero = () => {
         <div className="position-absolute top_70 left_30 d_none_lg">
           <img src={leftarrow} alt="left arrow header section " />
         </div>
-      
       </section>
     </>
   );

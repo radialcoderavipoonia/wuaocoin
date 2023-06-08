@@ -1,5 +1,5 @@
 import React from "react";
-import pagelogo from "../assets/images/png/page_logo.png";
+import pagelogo from "../Images/Png/page_logo.png";
 import navdiscord from "../assets/images/png/nav_discord.png";
 import navtwitter from "../assets/images/png/nav_twitter.png";
 import navtelegram from "../assets/images/png/nav_telegram.png";
@@ -14,7 +14,7 @@ export const Nav = () => {
         <header className=" position-relative ">
           {/* nar bar starts  */}
 
-          <nav className=" position_fixed z_11 bg_orange w-100">
+          <nav className=" position_fixed z_11 bg_orangee w-100">
             <div className="d-flex justify-content-between align-items-center container">
               <div className="py-4 position-relative z-3">
                 <a href="#">
