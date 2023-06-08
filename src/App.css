@@ -364,6 +364,12 @@ footer ul li:hover a::before {
     display: none;
   }
 }
+@media (max-width: 1300px) {
+
+  .d-none-xl {
+    display: none;
+  }
+}
 
 @media (max-width: 576px) {
   .px-20 {

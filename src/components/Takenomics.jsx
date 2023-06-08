@@ -24,7 +24,7 @@ const Takenomics = () => {
           <img  src={vec} alt="vec" />
         </div>
        
-        <div className="takearrow d-none-lg">
+        <div className="takearrow d-none-xl">
           <img src={takearrow} alt="takearrow" />
         </div>
         <div className="container ">

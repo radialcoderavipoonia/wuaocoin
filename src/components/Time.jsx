@@ -23,7 +23,7 @@ const Time = () => {
                   86
                 </p>
               </div>
-              <p className="ff_montserrat fw-medium fs_md color-light text-center pt-1">
+              <p className="ff_montserrat fw-medium fs_md color-light text-center pt-1 mb-0">
                 Days
               </p>
             </div>
@@ -37,7 +37,7 @@ const Time = () => {
                   05
                 </p>
               </div>
-              <p className="ff_montserrat fw-medium fs_md color-light text-center pt-1">
+              <p className="ff_montserrat fw-medium fs_md color-light text-center pt-1 mb-0">
                 Hours
               </p>
             </div>
@@ -50,7 +50,7 @@ const Time = () => {
                   20
                 </p>
               </div>
-              <p className="ff_montserrat fw-medium fs_md color-light text-center pt-1">
+              <p className="ff_montserrat fw-medium fs_md color-light text-center pt-1 mb-0">
                 Minute
               </p>
             </div>
@@ -60,7 +60,7 @@ const Time = () => {
                   37
                 </p>
               </div>
-              <p className="ff_montserrat fw-medium fs_md color-light text-center pt-1">
+              <p className="ff_montserrat fw-medium fs_md color-light text-center pt-1 mb-0">
                 Second
               </p>
             </div>
