@@ -31,7 +31,7 @@ const Takenomics = () => {
           <h2 className="py-md-5 ff_montserrat fs_3xl color_grey fw-bold text-center mb-0">
             Tokenomics
           </h2>
-          <div className="d-flex flex-column align-items-center  position-relative py-5 translate_md vh_sm-50">
+          <div className="d-flex flex-column align-items-center  position-relative py-md-5 py-5 translate_md vh_sm-50">
             <div className="bcircle b-shadow ">
               <img className="w-100 b-shadow" src={bcircle} alt="bcircle" />
               <div className="pink">
@@ -104,7 +104,7 @@ const Takenomics = () => {
                 <span className="pink-box d-flex"></span>
               </div>
               <div className="px-3">
-                <p className="ff_montserrat fw-bold color_pink fs_md mb-0">
+                <p className="ff_montserrat fw-bold color_grey fs_md mb-0">
                   Team
                 </p>
               </div>
@@ -114,7 +114,7 @@ const Takenomics = () => {
                 <span className="orange-box d-flex"></span>
               </div>
               <div className="px-3">
-                <p className="ff_montserrat fw-bold color_pink fs_md mb-0">
+                <p className="ff_montserrat fw-bold color_grey fs_md mb-0">
                   Buyers/holders/ community
                 </p>
               </div>
@@ -124,7 +124,7 @@ const Takenomics = () => {
                 <span className="green-box d-flex"></span>
               </div>
               <div className="px-3">
-                <p className="ff_montserrat fw-bold color_pink fs_md mb-0">
+                <p className="ff_montserrat fw-bold color_grey fs_md mb-0">
                   Subdivided into 5% Founders
                 </p>
               </div>
@@ -134,7 +134,7 @@ const Takenomics = () => {
                 <span className="blue-box d-flex"></span>
               </div>
               <div className="px-3">
-                <p className="ff_montserrat fw-bold color_pink fs_md mb-0">
+                <p className="ff_montserrat fw-bold color_grey fs_md mb-0">
                   Workers
                 </p>
               </div>

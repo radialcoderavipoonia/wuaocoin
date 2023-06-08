@@ -4,27 +4,36 @@ import fv2 from "../Images/Png/footer-vector2.png";
 import arrow from "../Images/Png/footer-arrow.png";
 import footerlogo from "../Images/Png/footer-logo.png";
 import linked from "../Images/svg/Group 96975.svg";
+import wa from "../Images/Png/wa.png";
+import wlogo from "../Images/Png/wlogo.png";
 import { Col, Row } from "react-bootstrap";
-const footer = () => {
+const Footer = () => {
   return (
     <>
       <footer className="position-relative  ">
-        <div className="footer-1 ">
+        <div className="footer-1 d-none-lg">
           <img src={fv} alt="fv" />
         </div>
-        <div className="footer-2 ">
+        <div className="footer-2 d-none-lg">
           <img src={arrow} alt="arrow" />
         </div>
-        <div className="footer-3 ">
+        <div className="footer-3 d-none-lg">
           <img src={fv2} alt="fv2" />
         </div>
         <div className="container py-5">
           <div className="d-lg-flex justify-content-between pt-5 pb-4">
             <div className="d-flex flex-column align-items-start">
-              <div className="z-2">
-                <a href="#">
-                  <img src={footerlogo} alt="logo" />
-                </a>
+              <div className="z-2 d-flex align-items-center">
+                <div>
+                  <a href="#">
+                    <img className="spin" src={wlogo} alt="wlogo" />
+                  </a>
+                </div>
+                <div className="px-3">
+                  <a href=" #">
+                    <img src={wa} alt="wa" />
+                  </a>
+                </div>
               </div>
               <div className="py-4">
                 <p className="ff_montserrat fw-normal fs_sm color_grey mw-252px mb-0 op-70 text-start">
@@ -33,7 +42,7 @@ const footer = () => {
                 </p>
               </div>
               <div className="d-flex">
-                <div className="pe-12 z-2 hover-translate">
+                <div className="pe-12 z-2 hover-translate  updown">
                   <svg
                     className="curser-pointer"
                     width="30"
@@ -68,7 +77,7 @@ const footer = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="pe-12 z-3  hover-translate">
+                <div className="pe-12 z-3  hover-translate downup">
                   <svg
                     className="curser-pointer"
                     width="30"
@@ -103,7 +112,7 @@ const footer = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="pe-12 z-3 hover-translate">
+                <div className="pe-12 z-3 hover-translate updown">
                   <svg
                     className="curser-pointer "
                     width="30"
@@ -138,7 +147,7 @@ const footer = () => {
                     </defs>
                   </svg>
                 </div>
-                <div className="hover-translate">
+                <div className="hover-translate downup">
                   <img className="curser-pointer" src={linked} alt="linked" />
                 </div>
               </div>
@@ -251,9 +260,9 @@ const footer = () => {
                       WUAOCOIN
                     </a>
                   </li>
-                  <li className="pb-2 transition-easy">
+                  <li className="pb-2 ">
                     <a
-                      className="ff_montserrat fw-normal color_grey op-60"
+                      className="ff_montserrat fw-normal color_grey op-60 transition-easy"
                       href="#"
                     >
                       WUAOSHOP
