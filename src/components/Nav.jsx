@@ -1,12 +1,5 @@
 import React from "react";
 import pagelogo from "../assets/images/png/page_logo.png";
-import navdiscord from "../assets/images/png/nav_discord.png";
-import navtwitter from "../assets/images/png/nav_twitter.png";
-import navtelegram from "../assets/images/png/nav_telegram.png";
-import navlinkedin from "../assets/images/png/nav_linkedin.png";
-import langicon from "../assets/images/png/language_logo.png";
-import toppagelogoshadow from "../assets/images/png/page_logo_bg.png";
-
 export const Nav = () => {
   return (
     <>
@@ -101,15 +94,6 @@ export const Nav = () => {
               </div>
             </div>
           </nav>
-
-          <div className="position-absolute top-0 left-0 d-lg-block d-none">
-            <img
-              src={toppagelogoshadow}
-              alt="top left corner shadow"
-              className=" w-75"
-            />
-          </div>
-          {/* nav bar ends */}
         </header>
       </section>
     </>

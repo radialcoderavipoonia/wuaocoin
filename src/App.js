@@ -1,16 +1,20 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import "./root.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./middle.css";
 import Nav from "../src/components/Nav.jsx";
 import Hero from "../src/components/Hero.jsx";
 import React, { component } from "react";
 import Header from "./components/Header";
 import Projects from "./components/Projects.jsx";
-import Partnership from "./components/Partnership";
+import Whitepaper from "./components/Whitepaper";
+import Roadmap from "./components/Roadmap";
+import Benifit from "./components/Benifit";
 import Time from "./components/Time";
 import Takenomics from "./components/Takenomics";
-import Footer from "./components/Footer";
+import Partnership from "./components/Partnership";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,12 +27,15 @@ function App() {
         <Header />
         <Projects />
       </div>
+      <Benifit />
+      <Whitepaper />
+      <Roadmap />
       <Time />
-      <Takenomics />
       <Partnership />
-      <Footer />
-    </>
-  );
+      <Takenomics />
+      {/* <Footer /> */}
+
+    </>)
 }
 
-export default App;
+export default App

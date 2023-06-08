@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap%22%22");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap%22%22");
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none !important;
-  text-decoration: none !important;
-  box-sizing: border-box !important;
+*{
+margin: 0;
+padding: 0;
+list-style: none !important;
+text-decoration: none !important;
+box-sizing: border-box !important;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dbfdaa735d3aa72089ff95d0723ade8c8cd42dd5
 /* font family  */
 .ff_montserrat {
-  font-family: "Montserrat" !important;
+  font-family: "Montserrat";
 }
 .ff_inter {
   font-size: "inter";
@@ -31,7 +35,7 @@
   --color-black: #000000;
 }
 
-/* / font size  / */
+
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
@@ -56,18 +60,23 @@
 .fs_4xl {
   font-size: var(--fs-4xl);
 }
+<<<<<<< HEAD
 /* colors  */
+=======
+
+>>>>>>> dbfdaa735d3aa72089ff95d0723ade8c8cd42dd5
 .color_white {
   color: var(--color-white);
 }
 .bg_white {
-  color: var(--bg-white) !important;
+  color: var(--bg-white);
 }
 .color_darkblack {
   color: var(--color-darkblack);
 }
 .color_black {
   color: var(--color-black);
+<<<<<<< HEAD
 }
 
 /* gradient  */
@@ -138,3 +147,6 @@
   }
 }
 
+=======
+}
+>>>>>>> dbfdaa735d3aa72089ff95d0723ade8c8cd42dd5

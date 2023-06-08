@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Form } from "react-bootstrap";
 import td from "../Images/Png/timedots.png";
-import timebg from "../Images/Png/background.png"
+
 const Time = () => {
   return (
     <>

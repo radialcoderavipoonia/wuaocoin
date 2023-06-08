@@ -1,10 +1,4 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import herorightwhitebg from "../assets/images/png/hero_col_6bg.png";
-import herowhitebgcol6 from "../assets/images/png/header_col6bg.png";
-import heroimage from "../assets/images/png/hero_image.png";
-import toparrow from "../assets/images/png/top_arrow_header.png";
-import leftarrow from "../assets/images/png/left_arrow_header.png";
+import React from 'react'
 
 export const Hero = () => {
   return (
