@@ -79,8 +79,8 @@ html {
 .top_70 {
   top: 70%;
 }
-.left_200 {
-  left: 300px;
+.left_50 {
+  left: 50px;
 }
 .left_30 {
   left: 30px;
@@ -114,12 +114,7 @@ html {
   height: 500px;
 }
 /* width  */
-.mw_513 {
-  max-width: 513px;
-}
-.mw_384 {
-  max-width: 384px;
-}
+
 .mw_447 {
   max-width: 447px;
 }
@@ -173,6 +168,20 @@ html {
 .animation_rotate {
   animation: rotatecircle 5s linear infinite;
 }
+.scaleaniamtion{
+    animation: scaleaniamtion 2s linear infinite alternate;
+}
+.up_down{
+    animation: updown 2.5s linear infinite;
+}
+@keyframes scaleaniamtion {
+      0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
 @keyframes rotatecircle {
   0% {
     transform: rotate(0deg);
@@ -180,6 +189,11 @@ html {
   100% {
     transform: rotate(360deg);
   }
+}
+@keyframes updown {
+    50%{
+        transform: translateY(-30px);
+    }
 }
 /* extra  */
 .cursor {
@@ -226,6 +240,9 @@ html {
   .h_350_1600 {
     height: 350px;
   }
+  .top_-450{
+    top: -358px;
+  }
 }
 @media (min-width: 1420px) {
   .vh_100_1440 {
@@ -240,7 +257,7 @@ html {
     top: -334px;
   }
   .left_50_xxl {
-    left: 86px;
+    left: 50px;
   }
   .top_100_xxl {
     top: 100px;
@@ -269,11 +286,19 @@ html {
     max-width: 150px;
   }
 }
+@media (min-width: 992px) {
+  .mw_513 {
+    max-width: 513px;
+  }
+  .mw_384 {
+    max-width: 384px;
+  }
+}
 
 @media (max-width: 992px) {
   .pos_fixed_lg {
     position: fixed;
-    top: 88px;
+    top: 101px;
     left: -100%;
     width: 100%;
     height: 100vh;

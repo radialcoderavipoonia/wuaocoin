@@ -58,7 +58,7 @@ export const Nav = () => {
                       />
                     </a>
                   </div>
-                  <div className="ms-lg-3 m-0">
+                  <div className="ms-lg-3 m-0 ps-2 ps-lg-0">
                     <a href="#">
                       {" "}
                       <img
@@ -68,7 +68,7 @@ export const Nav = () => {
                       />
                     </a>
                   </div>
-                  <div className="ms-lg-3 m-0">
+                  <div className="ms-lg-3 m-0 ps-2 ps-lg-0">
                     <a href="#">
                       {" "}
                       <img
@@ -78,7 +78,7 @@ export const Nav = () => {
                       />
                     </a>
                   </div>
-                  <div className="ms-lg-3 m-0">
+                  <div className="ms-lg-3 m-0 ps-2 ps-lg-0">
                     <a href="#">
                       {" "}
                       <img

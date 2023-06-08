@@ -10,9 +10,9 @@ export const Hero = () => {
   return (
     <>
       <section className=" flex-grow-1 position-relative d-flex align-items-center py-5 ">
-        <Container className="py-5">
-          <Row className="justify-content-between align-items-center">
-            <Col lg={5} className="pt-5">
+        <Container className="py-5 text-lg-start text-center">
+          <Row className=" justify-content-center align-items-center">
+            <Col lg={5} className="pt-5 ">
               <p className="text-white ff_montserrat fw-semibold fs_lg m-0">
                 Welcome to
               </p>
@@ -22,7 +22,7 @@ export const Hero = () => {
               <p className="text-white pt-2 ff_montserrat fw-medium mw_384 fs_md m-0">
                 A multi-purpose token to improve digital sales and purchases
               </p>
-              <div className="d-flex pt-5">
+              <div className="d-flex justify-content-center justify-content-lg-start pt-5">
                 <button className="button_hero bg_white border-0 br_40 button_hover">
                   <div className="text_gradient">
                     <a
@@ -39,8 +39,8 @@ export const Hero = () => {
               </div>
             </Col>
             <Col lg={7} className="pt-lg-0 pt-5">
-              <div className="position-relative z-2 left_200 left_50_xxl top_100_xxl top_100">
-                <img src={heroimage} alt="hero image " className="w_100" />
+              <div className="position-relative z-2 left_50 left_50_xxl top_100_xxl top_100">
+                <img src={heroimage} alt="hero image " className="w_100 up_down" />
               </div>
             </Col>
           </Row>

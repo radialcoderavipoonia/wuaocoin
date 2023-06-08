@@ -17,7 +17,7 @@ export const Projects = () => {
                     <img
                       src={ourprojectimg}
                       alt="our project section image"
-                      className="w-100 cursor"
+                      className="w-100 cursor scaleaniamtion"
                     />
                   </a>
                   <div className="position-absolute animation_rotate ">
@@ -58,6 +58,7 @@ export const Projects = () => {
             />
           </div>
         </div>
+       
       </div>
     </>
   );
