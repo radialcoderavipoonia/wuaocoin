@@ -152,7 +152,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="row pt_lg_3">
+            <div className="row ">
               <div className="col-sm-6 col-md-4 pe-5 pt_lg_3">
                 <h4 className="pb-3 transition-easy ff_montserrat fw-semibold fs_md mb-0">
                   Documents

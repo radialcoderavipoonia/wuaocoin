@@ -4,18 +4,22 @@ import "./root.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from "../src/components/Nav.jsx";
 import Hero from "../src/components/Hero.jsx";
-import React, { Component } from "react";
-import Time from "./components/Time";
-import Partnership from "./components/Partnership";
-import Takenomics from "./components/Takenomics";
-import Footer from "./components/Footer"
+import React, { component } from "react";
+import Header from "./components/Header";
+import Projects from "./components/Projects.jsx";
+
 function App() {
   return (
     <>
-      <Time />
-      <Takenomics />
-      <Partnership />
-      <Footer />
+      <div className="">
+        <div className="vh_100_1440 header_bg  ">
+          <Nav />
+          <Hero />
+        </div>
+        <Header />
+        <Projects />
+        
+      </div>
     </>
   );
 }
