@@ -16,10 +16,12 @@ import Time from "./components/Time.jsx"
 import Takenomics from "./components/Takenomics.jsx"
 import Partnership from "./components/Partnership.jsx"
 import Footer from "./components/Footer.jsx"
+import Loader from "./components/Loader";
 
 function App() {
   return (
     <>
+    <Loader/>
       <div className="">
         <div className="vh_100_1440 header_bg  ">
           <Nav />

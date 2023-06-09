@@ -28,7 +28,17 @@ body {
 html {
   overflow-x: hidden !important;
 }
-
+.bg_rgb{background: linear-gradient(180deg, #FFBA3B -9.01%, #FFA53B 43.37%, #FF983B 89.55%);
+}
+.loader1 {
+  animation:loader 3s linear infinite;
+}
+@keyframes loader {
+  0%{transform: scale(1)rotate(0deg);}  
+  100%{transform: scale(1.5)rotate(360deg);}
+ 
+  
+}
 /* padding  */
 .pt_40 {
   padding-top: 40px;
